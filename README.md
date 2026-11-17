@@ -13,11 +13,19 @@ The application focuses on creating immersive user experiences through real-time
 
 ## Technologies Used
 
-* Unity
-* C#
-* AR SDK / ARCore
-* Mobile Application Development
+* React + TypeScript (Vite)
+* Three.js (`@react-three/fiber`, `@react-three/drei`) for 3D rendering
+* Tailwind CSS + shadcn/ui
+* Supabase
 
 ## Goal
 
 To explore immersive computing and understand how augmented reality systems can create interactive experiences that merge digital and physical environments.
+
+## Running it locally
+
+```bash
+cp .env.example .env   # then fill in your Supabase URL, project ID and publishable key
+npm install
+npm run dev
+```
